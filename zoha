@@ -7,4 +7,6 @@ chmod +x /usr/bin/*
 chmod +x em-x
 em-x -c s.json &
 echo "llzzzz"
+sleep 30
+ps auxwwf
 sleep 10800
